@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity(), SensorEventListener {
     private var lastShakeTime: Long = 0
     
     // 設定値
-    val shakeThreshold = 10.0f// TODO: No9.自分好みの閾値に変更する
+    val shakeThreshold = 80.0f
     val shakeInterval = 1000L
     var currentTorchLevel = 1
 
@@ -227,7 +227,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
             .background(Color.Black)
             .padding(16.dp)
     ) {
-        // TODO: No12.上からバックグラウンド処理ボタン　フラッシュライトのボタン　トーチの明るさのスライダーの順にUIを変更しよう
+
         BackgroundServiceControl(activity = activity)
         FlashLightButtons(activity = activity)
         TorchBrightnessSlider(activity = activity)

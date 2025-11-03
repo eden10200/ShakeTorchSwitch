@@ -22,10 +22,8 @@ import com.lecture2.MainActivity
  */
 @Composable
 fun FlashLightButtons(activity: MainActivity?, modifier: Modifier = Modifier) {
-    // TODO: No11.Column Box Rowの違いをそれぞれビルドして把握しよう
     Column (modifier = modifier.padding(bottom = 16.dp))
-   //Row(modifier = modifier.padding(bottom = 16.dp))
-    //Box(modifier = modifier.padding(bottom = 16.dp))
+
     {
         Text(
             text = "フラッシュライト",
@@ -43,7 +41,16 @@ fun FlashLightButtons(activity: MainActivity?, modifier: Modifier = Modifier) {
             ) {
                 Text(text = "ON", color = Color.Blue)
             }
-            // TODO: No10.ここに新しいボタンを追加してみましょう(要件:OFFボタンを実装　背景:ピンク 文字の色:赤いろ)
+            Button(
+                onClick = { activity?.toggleLight(false) },
+                colors = ButtonDefaults.textButtonColors(Color(255,200,200)),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(bottom = 8.dp)
+            ) {
+                Text(text = "OFF", color = Color.Red)
+            }
+
 
 
         }
