@@ -228,12 +228,13 @@ fun MainScreen(modifier: Modifier = Modifier) {
             .padding(16.dp)
     ) {
         // TODO: No12.上からバックグラウンド処理ボタン　フラッシュライトのボタン　トーチの明るさのスライダーの順にUIを変更しよう
-
+        BackgroundServiceControl(activity = activity)
+        FlashLightButtons(activity = activity)
         TorchBrightnessSlider(activity = activity)
 
-        FlashLightButtons(activity = activity)
+       
 
-        BackgroundServiceControl(activity = activity)
+       
 
     }
 }
