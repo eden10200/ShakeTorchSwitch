@@ -1,4 +1,4 @@
-package com.lecture2
+package com.shaketorchswitch
 
 import android.app.NotificationChannel
 import android.app.NotificationManager

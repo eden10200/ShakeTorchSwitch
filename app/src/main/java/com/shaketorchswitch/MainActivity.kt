@@ -1,4 +1,4 @@
-package com.lecture2
+package com.shaketorchswitch
 
 import android.content.Intent
 import android.hardware.Sensor
@@ -24,9 +24,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.lecture2.ui.components.BackgroundServiceControl
-import com.lecture2.ui.components.FlashLightButtons
-import com.lecture2.ui.components.TorchBrightnessSlider
+import com.shaketorchswitch.ui.components.BackgroundServiceControl
+import com.shaketorchswitch.ui.components.FlashLightButtons
+import com.shaketorchswitch.ui.components.TorchBrightnessSlider
 
 
 /**

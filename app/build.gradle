@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.lecture2'
+    namespace 'com.shaketorchswitch'
     compileSdk 36
 
     defaultConfig {
-        applicationId "com.lecture2"
+        applicationId "com.shaketorchswitch"
         minSdk 28
         targetSdk 36
         versionCode 1

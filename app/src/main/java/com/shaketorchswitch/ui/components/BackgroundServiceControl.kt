@@ -1,4 +1,4 @@
-package com.lecture2.ui.components
+package com.shaketorchswitch.ui.components
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
@@ -13,7 +13,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.lecture2.MainActivity
+import com.shaketorchswitch.MainActivity
 
 /**
  * バックグラウンドサービスの開始/停止を制御するコンポーネント
